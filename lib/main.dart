@@ -1,3 +1,4 @@
+import 'package:cream/views/explore_screen.dart';
 import 'package:cream/views/splash_screen.dart';
 import 'package:cream/views/upload_screen.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: UploadScreen(),
+      home: ExploreScreen(),
     );
   }
 }
