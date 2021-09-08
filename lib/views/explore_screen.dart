@@ -1,3 +1,4 @@
+import 'package:cream/views/upload_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -36,7 +37,12 @@ class _ExploreScreenState extends State<ExploreScreen> {
             child: IconButton(
                 icon: Icon(Icons.file_upload_outlined),
                 color: Colors.black,
-                onPressed: () {}),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => UploadScreen()),
+                  );
+                }),
           ),
         ],
       ),

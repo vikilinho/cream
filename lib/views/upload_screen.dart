@@ -23,7 +23,9 @@ class _UploadScreenState extends State<UploadScreen> {
         leading: IconButton(
             icon: Icon(Icons.arrow_back),
             color: Colors.black,
-            onPressed: () {}),
+            onPressed: () {
+              Navigator.of(context).pop();
+            }),
         actions: [
           Padding(
             padding: EdgeInsets.only(right: 10.0),
