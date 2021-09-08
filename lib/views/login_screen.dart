@@ -45,7 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 height: 30,
               ),
               Container(
-                  height: 100,
+                  height: 80,
                   width: 350,
                   child: Padding(
                     padding: const EdgeInsets.all(12.0),
@@ -78,7 +78,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 height: 30,
               ),
               Container(
-                  height: 100,
+                  height: 80,
                   width: 350,
                   child: Padding(
                     padding: const EdgeInsets.all(12.0),
@@ -158,7 +158,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 style: GoogleFonts.kodchasan(),
               ),
               SizedBox(
-                height: 20,
+                height: 30,
               ),
               Row(mainAxisAlignment: MainAxisAlignment.center, children: [
                 CircleAvatar(
